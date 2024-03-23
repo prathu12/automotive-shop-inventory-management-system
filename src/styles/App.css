@@ -1,0 +1,42 @@
+.container{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+input{
+    margin: 5px ;
+}
+
+.buttons{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/* .btns{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+} */
+.tableContainer{
+    margin-top: 50px;
+}
+
+.tableContainer table thead tr{
+    background-color: beige;
+}
+
+.tableContainer table thead tr th,
+.tableContainer table tbody tr td{
+    min-width: 200px;
+    background-color: #d8d0d0;
+    padding: 7px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
